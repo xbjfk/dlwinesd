@@ -4,11 +4,7 @@ dlwinesd is a small script/module to download Windows 10 and 11 ESDs directly fr
 
 ## installation
 
-#### Install dependencies
-`pip install -r requirements.txt`
-
-#### Install program
-Clone or download this repo
+`pip install dlwinesd`
 
 ## Usage
 `import dlwinesd` to use it as a module, or run it from the command line, like:    

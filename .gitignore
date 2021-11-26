@@ -1,2 +1,5 @@
-/*esd
+/build/
+/dist/
+/dlwinesd.egg-info/
+/*.esd
 __pycache__

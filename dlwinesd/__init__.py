@@ -111,7 +111,7 @@ class WinESD:
                 print("\nDone! Saved to", outfile.name)
 
 
-if __name__ == "__main__":
+def main():
     import argparse
 
     parser = argparse.ArgumentParser(description='Download a Windows 10 or 11 ESD directly from Microsoft.')
@@ -149,3 +149,7 @@ if __name__ == "__main__":
         print(esd.get_url())
     else:
         esd.download()
+
+
+if __name__ == "__main__":
+    main()
