@@ -9,6 +9,8 @@ setup(
     name='dlwinesd',
     version='0.1',
     license='MIT',
+    long_description_content_type="text/markdown",
+    long_description=long_description,
     author_email='xbjfk.github@gmail.com',
     package_dir={'': '.'},
     packages=find_packages('.'),
